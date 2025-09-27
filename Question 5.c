@@ -4,10 +4,8 @@ int main(){
 	
 	printf("Enter 1 if you have completed the Prerequisite and if not then enter 0: ");
 	scanf("%d",&hasPrerequisite);
-	printf("%d\n",hasPrerequisite);
 	printf("Enter 1 if Course is full and if not then enter 0: ");
 	scanf("%d",&isCoursefull);
-	printf("%d\n",isCoursefull);
 	
 	if(hasPrerequisite == 0)
 	{
@@ -34,3 +32,4 @@ int main(){
 	
 	return 0;
 }
+
